@@ -1,0 +1,53 @@
+.blog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#new-post-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#new-post-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#new-post-form input, #new-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#save-post-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
